@@ -2,7 +2,8 @@ import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 // import './App.css'
-import Footer from './Components/Footer/Footer';
+// import Footer from './Components/Footer/Footer';
+import Section from './Components/section/Section';
 import Signin from './Components/Users/SignIn';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -16,7 +17,8 @@ function App() {
         <Route path="/signin" element={<Signin />} />
       </Routes>
     </Router>
-    <Footer/>
+    {/* <Footer/> */}
+    <Section/>
     </>
   )
 }
