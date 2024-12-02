@@ -10,7 +10,7 @@ const Two = () =>
 
         <div id="one" className='w-full h-[216px] sm:w-[608px] sm:h-[297px] rounded-lg border-[1px] border-black flex flex-col sm:p-10 font-poppins p-5 text-center items-center sm:items-start sm:text-start'>
 
-          <div className='sm:w-[147px] sm:h-[40px] flex justify-between my-auto w-[102px] h-[32px]'>
+          <div className='sm:w-[147px] sm:h-[40px] flex justify-between items-center my-auto w-[102px] h-[32px]'>
             <img src="/public/images/people.png" alt="People" />
             <span className='sm:text-2xl font-semibold text-[18px] text-[#8064A2]'>People</span>
           </div>
@@ -21,7 +21,7 @@ const Two = () =>
             </span>
           </div>
           
-          <button className='sm:w-[122px] sm:h-[40px] border-[1px] text-[14px] font-semibold my-auto rounded-lg text-xs w-[264px] h-[32px] border-[#8064A2]'>
+          <button className='sm:w-[122px] sm:h-[40px] border-[1px] text-[14px] font-semibold rounded-lg text-xs w-[264px] h-[32px] border-[#8064A2] mt-5'>
             Connect
           </button>
         
@@ -41,7 +41,7 @@ const Two = () =>
             </span>
           </div>
          
-          <button className='sm:w-[122px] sm:h-[40px] border-[1px] text-[14px] font-semibold my-auto rounded-lg text-xs w-[264px] h-[32px] border-[#8064A2]'>
+          <button className='sm:w-[122px] sm:h-[40px] border-[1px] text-[14px] font-semibold rounded-lg text-xs w-[264px] h-[32px] border-[#8064A2] mt-5'>
             Meet Up
           </button>
         
@@ -60,7 +60,7 @@ const Two = () =>
             </span>
           </div>
           
-          <button className='sm:w-[122px] sm:h-[40px] border-[1px] text-[14px] font-semibold my-auto rounded-lg text-xs w-[264px] h-[32px] border-[#8064A2]'>
+          <button className='sm:w-[122px] sm:h-[40px] border-[1px] text-[14px] font-semibold mt-5 rounded-lg text-xs w-[264px] h-[32px] border-[#8064A2]'>
             Get It
           </button>
        
@@ -79,7 +79,7 @@ const Two = () =>
             </span>
           </div>
           
-          <button className='sm:w-[122px] sm:h-[40px] border-[1px] text-[14px] font-semibold my-auto rounded-lg text-xs w-[264px] h-[32px] border-[#8064A2]'>
+          <button className='sm:w-[122px] sm:h-[40px] border-[1px] text-[14px] font-semibold mt-5 rounded-lg text-xs w-[264px] h-[32px] border-[#8064A2]'>
             Attend
           </button>
         
