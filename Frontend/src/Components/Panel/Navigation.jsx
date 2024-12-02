@@ -29,7 +29,7 @@ const Navigation = () =>
         className='sm:w-[300px] sm:h-[40px] flex justify-between'>
 
           <input 
-          className='sm:w-[300px] sm:h-[40px] border-1 border-black pl-2 flex-grow sm:rounded-tl-lg sm:rounded-bl-lg bg-[#F8F9FA] text-sm hidden md:block'
+          className='sm:w-[300px] sm:h-[40px] border-1 border-black pl-2 flex-grow sm:rounded-tl-lg sm:rounded-bl-lg bg-[#F8F9FA] text-sm hidden md:block font-poppins'
           type="text" 
           placeholder='Search here..'/>
 
@@ -62,7 +62,7 @@ const Navigation = () =>
           id="explore"
           className='sm:w-[107px] sm:h-[24px] justify-between items-center text-sm font-medium hidden md:block'>
             <button
-            className='flex items-center'>
+            className='flex items-center font-poppins'>
               <img 
               className='sm:w-[20px] sm:h-[20px]'
               src="/public/images/explore.png" 
@@ -80,7 +80,7 @@ const Navigation = () =>
           className='sm:w-[107px] sm:h-[24px] justify-between items-center text-sm font-medium hidden md:block'>
             
             <button
-            className='flex items-center'>
+            className='flex items-center font-poppins'>
             <img 
             className='sm:w-[20px] sm:h-[20px]'
             src="/public/images/hobbies.png" 
@@ -119,7 +119,7 @@ const Navigation = () =>
 
           <button 
           id='signin'
-          className='sm:w-[112px] sm:h-[40px] border-2 border-[#8064A2] rounded-lg text-sm font-medium text-[#8064A2]' hidden md:block>
+          className='sm:w-[112px] sm:h-[40px] border-2 border-[#8064A2] rounded-lg text-sm font-medium text-[#8064A2] font-poppins hidden md:block'>
             Sign In
           </button>
 
@@ -133,7 +133,7 @@ const Navigation = () =>
 
       </div>
 
-    <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'} z-50 backdrop-blur p-4 fixed top-[5vh] w-full h-[100vh]`}>
+    <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'} z-50 backdrop-blur p-4 fixed top-[5vh] w-full h-[100vh]  font-poppins`}>
 
       <button className='flex text-sm mb-3'>
         <img 
@@ -169,6 +169,8 @@ const Navigation = () =>
           alt="Hobbies Icon" />
             Cart
       </button>
+
+      <button className='flex text-sm'>Sign In/Register</button>
     </div>
 
     </div>
