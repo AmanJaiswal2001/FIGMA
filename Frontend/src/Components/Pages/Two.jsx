@@ -7,7 +7,7 @@ const Two = () => {
 
         <div 
         id="cards"
-        className='grid sm:grid-cols-2 gap-4 p-4 sm:w-full  sm:justify-around'>
+        className='grid sm:grid-cols-2 gap-4 p-4 sm:w-[full] sm:mt-10 sm:mb-10 sm:justify-around'>
 
           <div 
           id="one"
