@@ -4,7 +4,10 @@ import { faCirclePlus } from '@fortawesome/free-solid-svg-icons';
 
 export default function Addcard() {
     return (
-        <div className="bg-white w-[320px] md:w-[1240px] h-[236px] md:h-[284px] mx-auto p-4 md:p-10 border rounded-md flex flex-col gap-y-6 md:gap-y-10 ">
+
+<div className='bg-[#F7FDFF] h-96 flex justify-center items-center mt-2  '>       
+
+ <div className="bg-white w-[320px] md:w-[1240px] h-[236px] md:h-[284px] mx-auto p-4 md:p-10 border rounded-md flex flex-col gap-y-6 md:gap-y-10 ">
             <div className="flex flex-wrap items-center justify-center md:items-start md:justify-start gap-4 md:gap-4 md:gap-x-8">
                 <a href="#" className="text-3xl md:text-4xl">
                     <FontAwesomeIcon icon={faCirclePlus} className="text-purple-400 w-[26.6px] h-[26.6px] md:size-[40px]" />
@@ -25,5 +28,9 @@ export default function Addcard() {
             </div>
 
         </div>
+
+        </div>
+
+
     );
 }
