@@ -4,7 +4,7 @@ import { useState } from 'react'
 // import './App.css'
 // // import Footer from './Components/Footer/Footer';
 import Section from './Components/section/Section';
-import Signin from './Components/Users/SignIn';
+ import Signin from './Components/Users/SignIn';
 import Navigation from './Components/Panel/Navigation';
 import Two from './Components/Pages/Two';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -21,7 +21,7 @@ function App() {
         <Route path="/two" element={<Two />} />
       </Routes>
     </Router>
-    {/* {/* <Footer/> */} */}
+    {/* {/* <Footer/> */} 
     <Section/>
     </>
   )
