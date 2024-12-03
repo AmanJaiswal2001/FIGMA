@@ -3,7 +3,7 @@ import React from 'react'
 const Two = () => {
   return (
     
-    <div id="main" className='w-full h-screen overflow-x-hidden flex  items-center justify-center mt-36 md:mt-0'>
+    <div id="main" className='w-full h-screen  flex items-center justify-center mt-36 md:mt-0'>
 
         <div 
         id="cards"
