@@ -7,6 +7,8 @@ import Signin from './Components/Users/SignIn';
 import Navigation from './Components/Panel/Navigation';
 import Two from './Components/Pages/Two';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Addcard from './Components/Testimonials/Addcard';
+import Testimonials from './Components/Testimonials/Testimonials';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +20,8 @@ function App() {
         <Route path="/signin" element={<Signin />} />
         <Route path="/navigation" element={<Navigation />} />
         <Route path="/two" element={<Two />} />
+        <Route path="/cards" element={<Addcard />} />
+        <Route path="/Testimonials" element={<Testimonials />} />
       </Routes>
     </Router>
     {/* <Footer/> */}
