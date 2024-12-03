@@ -3,11 +3,11 @@ import React from 'react'
 const Two = () => {
   return (
     
-    <div id="main" className='w-full h-screen overflow-x-hidden flex  items-center justify-center mt-32 md:mt-0'>
+    <div id="main" className=' h-screen flex items-center justify-center '>
 
         <div 
         id="cards"
-        className='grid sm:grid-cols-2 gap-4 p-4 sm:w-full  sm:justify-around'>
+        className='grid sm:grid-cols-2 gap-4 p-4 sm:w-full  justify-center '>
 
           <div 
           id="one"
