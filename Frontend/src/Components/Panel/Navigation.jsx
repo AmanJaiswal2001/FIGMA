@@ -10,13 +10,27 @@ const Navigation = () =>
   };
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const ExploreDropdown = () => 
+  {
+    setIsExploreOpen(!isExploreOpen);
+    setIsHobbiesOpen(false);
+  };
+  const [isExploreOpen, setIsExploreOpen] = useState(false);
+
+  const HobbiesDropdown = () => 
+  {
+    setIsHobbiesOpen(!isHobbiesOpen);
+    setIsExploreOpen(false);
+  };
+  const [isHobbiesOpen, setIsHobbiesOpen] = useState(false);
+  
   return (
     <div id="main"
     className='w-screen h-screen'>
 
       <div 
       id="nav"
-      className='w-screen h-[48px] sm:w-screen sm:h-[80px] flex sm:justify-between items-center sm:px-20 px-5 justify-between'>
+      className='w-screen h-[48px] sm:w-screen sm:h-[80px] flex sm:justify-between items-center sm:px-20 px-5 justify-between shadow-md'>
 
         {/* <div className='flex items-center gap-5'> */}
 
@@ -66,7 +80,7 @@ const Navigation = () =>
           <div 
           id="explore"
           className='sm:w-[107px] sm:h-[24px] justify-between items-center hidden md:block'>
-            <button
+            <button onClick={ExploreDropdown}
             className='flex items-center'>
               <img 
               className='sm:w-[20px] sm:h-[20px]'
@@ -78,13 +92,25 @@ const Navigation = () =>
               src="/public/images/down.png" alt="" />
             </button>
 
+            {isExploreOpen && (
+              <div className="absolute top-20 sm:w-[220px] sm:h-[210px] bg-white border z-10">
+                <ul className="font-poppins text-sm text-[#6D747A]">
+                  <li className="px-4 py-2 hover:bg-gray-200 sm:w-[220px] sm:h-[42px] border-b-[1px]">People - Community</li>
+                  <li className="px-4 py-2 hover:bg-gray-200 sm:w-[220px] sm:h-[42px] border-b-[1px]">Places - Venues</li>
+                  <li className="px-4 py-2 hover:bg-gray-200 sm:w-[220px] sm:h-[42px] border-b-[1px]">Programs - Events</li>
+                  <li className="px-4 py-2 hover:bg-gray-200 sm:w-[220px] sm:h-[42px] border-b-[1px]">Products - Store</li>
+                  <li className="px-4 py-2 hover:bg-gray-200 sm:w-[220px] sm:h-[42px] border-b-[1px]">Blogs</li>
+                </ul>
+              </div>
+            )}
+
           </div>
 
           <div 
           id="hobbies"
           className='sm:w-[107px] sm:h-[24px] justify-between items-center hidden md:block'>
             
-            <button
+            <button onClick={HobbiesDropdown}
             className='flex items-center'>
             <img 
             className='sm:w-[20px] sm:h-[20px]'
@@ -95,6 +121,18 @@ const Navigation = () =>
               className='w-[24px] h-[24px]'
               src="/public/images/down.png" alt="" />
             </button>
+          
+            {isHobbiesOpen && (
+              <div className="absolute top-20 sm:w-[220px] sm:h-[210px] bg-white border z-10">
+              <ul className="font-poppins text-sm text-[#6D747A]">
+                <li className="px-4 py-2 hover:bg-gray-200 sm:w-[220px] sm:h-[42px] border-b-[1px]">List</li>
+                <li className="px-4 py-2 hover:bg-gray-200 sm:w-[220px] sm:h-[42px] border-b-[1px]">All</li>
+                <li className="px-4 py-2 hover:bg-gray-200 sm:w-[220px] sm:h-[42px] border-b-[1px]">Your</li>
+                <li className="px-4 py-2 hover:bg-gray-200 sm:w-[220px] sm:h-[42px] border-b-[1px]">Hobbies</li>
+                <li className="px-4 py-2 hover:bg-gray-200 sm:w-[220px] sm:h-[42px] border-b-[1px]">Here :) </li>
+              </ul>
+            </div>
+            )}
 
           </div>
 
