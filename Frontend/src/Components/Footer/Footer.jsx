@@ -28,7 +28,7 @@ const Footer = () => {
   
   return (
     <>
-    <div className='md:mt-96 mt-40 md:w-full w-screen '>   
+    <div className='md:mt-96 mt-64 md:w-full w-screen '>   
      <div className='  md:w-full w-screen h-[796px] md:h-96 md:flex md:justify-between  md:p-20 p-8 gap-5'>
   <div className='  flex   md:w-1/4   justify-between p-2'>
     <div className='font-poppins '>

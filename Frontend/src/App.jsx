@@ -27,7 +27,8 @@ function App() {
         {/* <Route path="/two" element={<Two />} /> */}
       </Routes>
     </Router>
-   
+   <Addcard/>
+   <Testimonials/>
     <Section/>
     <Footer/> 
     </>
