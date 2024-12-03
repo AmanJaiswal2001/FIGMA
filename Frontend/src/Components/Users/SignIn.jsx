@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import GPimg from './Images/Group_27.png';
 import googleIcon from './Images/google.png'
 import FBIcon from './Images/FB.png'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faEye, faEyeSlash, faLock } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEye, faEyeSlash, faLock } from '@fortawesome/free-solid-svg-icons';
 
 export default function SignIn() {
   const [view, setView] = useState('signIn');
