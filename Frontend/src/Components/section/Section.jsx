@@ -4,15 +4,15 @@ import Group from "../../assets/Group 99.png"
 const Section = () => {
   return (
     <>
-    <div className='w-full bg-sky-100 h-[662px] absolute'>
-<div className='flex justify-around mt-40'>
-<div className='w-[565px] h-14'>
-   <p className='font-poppins text-4xl'>Your Hobby, Your Community...</p>
+    <div className='md:w-full w-96 h-64 bg-sky-100 md:h-[662px] absolute'>
+<div className='flex justify-around mt-10 ml-5 md:mt-32 md:-ml-12'>
+<div className='md:w-[565px] md:h-14 w-72 h-7'>
+   <p className='font-poppins md:text-4xl text-[18px] leading-7'>Your <span className='font-poppins md:text-4xl text-[18px] leading-7 text-purple-800'>Hobby</span> , Your  <span className=' text-emerald-600 font-poppins md:text-4xl text-[18px] leading-7'>Community...</span> </p>
    
     {/* text */}
 
-<div className='w-36 h-11 bg-purple-800  flex justify-center rounded-lg mt-8'>
-    <button className='text-xl font-poppins font-semibold text-center text-white'>Get started</button>
+<div className='md:w-36 md:h-11 w-28 h-7  bg-purple-800  flex justify-center rounded-lg mt-4 md:mt-8'>
+    <button className='md:text-xl font-poppins md:font-semibold text-center text-sm text-white'>Get started</button>
     {/* button */}
 </div>
 </div>
@@ -25,12 +25,13 @@ const Section = () => {
 </div>
 </div>
     </div>
+    <div className='md:w-full w-80 m-auto'>
     <img src={Group}
 
-className='relative top-80 m-auto'
+className='relative md:top-80 top-40 md:m-auto   '
 />
-
-    <div className='bg-gray-100 w-10 p-2 h-10 flex flex-col relative left-[80%] bottom-28 rounded-full mt-16' >
+</div>
+    <div className='bg-gray-100 w-10 p-2 h-10 md:flex flex-col fixed hidden  right-32 bottom-[500px] rounded-full mt-16' >
   <img className=' '
   src={arrow}/>
 <div className='bg-gray-100 w-56 h-5 text-center relative right-24 mt-4  p-4 flex items-center justify-center'>

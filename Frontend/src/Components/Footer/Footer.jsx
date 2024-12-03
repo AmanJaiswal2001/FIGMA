@@ -33,7 +33,7 @@ const Footer = () => {
     <div className='font-poppins '>
      <p className='font-bold text-sm'>Hobbycue</p> {/* hboo */}
    
-   {isOpen.hobbycue && (  <ul className='pt-4 flex flex-col gap-1'>
+   {isOpen.hobbycue && (  <ul className='pt-4 flex flex-col gap-1 md:text-black text-gray-400'>
      <li  className='font-normal text-sm'>About Us</li>
 
       <li  className='font-normal text-sm'>Our Service</li>
@@ -57,7 +57,7 @@ const Footer = () => {
     <div className='font-poppins '>
      <p className='font-bold text-sm'>How Do I</p> {/* hboo */}
    {isOpen.howDoI &&(
-     <ul className='pt-4 flex flex-col gap-1'>
+     <ul className='pt-4 flex flex-col gap-1 md:text-black text-gray-400'>
      <li  className='font-normal text-sm'>Sign Up</li>
 
       <li  className='font-normal text-sm'>Add a Listing</li>
@@ -80,7 +80,7 @@ const Footer = () => {
     <div className='font-poppins '>
      <p className='font-bold text-sm'>Quick Links</p> {/* hboo */}
    {isOpen.quickLinks&&(
-     <ul className='pt-4 flex flex-col gap-1'>
+     <ul className='pt-4 flex flex-col gap-1 md:text-black text-gray-400'>
      <li  className='font-normal text-sm'>Listings</li>
 
       <li  className='font-normal text-sm'>Blog Posts</li>
@@ -147,7 +147,7 @@ className='border border-violet-900 p-2 md:p-4 w-60 rounded-l-lg outline-none'
 
 </div>
 
-     <p className='font-normal text-sm font-poppins bg-violet-100 p-4 text-center'>© Purple Cues Private Limited</p> {/* hboo */}
+     <p className='font-normal text-sm font-poppins -bottom-16 relative bg-violet-100 p-4 text-center'>© Purple Cues Private Limited</p> {/* hboo */}
 
     </div>
    
