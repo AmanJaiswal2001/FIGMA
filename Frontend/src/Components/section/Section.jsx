@@ -17,7 +17,7 @@ const Section = () => {
 
     
     <>
-    <div className='md:w-full w-screen h-64 bg-sky-100 md:h-[662px] absolute mt-20'>
+    <div className='md:w-full w-screen h-64 bg-[#F7FDFF] md:h-[662px] absolute mt-20'>
 <div className='flex justify-around mt-10 ml-5 md:mt-32 md:-ml-12'>
 <div className='md:w-[565px] md:h-14 w-72 h-7'>
    <p className='font-poppins md:text-4xl text-[18px] leading-7'>Your <span className='font-poppins md:text-4xl text-[18px] leading-7 text-purple-800'>Hobby</span> , Your  <span className=' text-emerald-600 font-poppins md:text-4xl text-[18px] leading-7'>Community...</span> </p>
