@@ -8,6 +8,8 @@ import Section from './Components/section/Section';
 import Navigation from './Components/Panel/Navigation';
 import Two from './Components/Pages/Two';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Addcard from './Components/Testimonials/Addcard';
+import Testimonials from './Components/Testimonials/Testimonials';
 
 function App() {
   const [count, setCount] = useState(0)
