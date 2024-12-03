@@ -16,17 +16,20 @@ const Navigation = () =>
 
       <div 
       id="nav"
-      className='w-screen h-[48px] sm:w-screen sm:h-[80px] flex sm:justify-between items-center sm:px-10 px-5 justify-between'>
+      className='w-screen h-[48px] sm:w-screen sm:h-[80px] flex sm:justify-between items-center sm:px-20 px-5 justify-between'>
+
+        {/* <div className='flex items-center gap-5'> */}
 
         <div 
         id="logo"
-        className='w-[156.4px] h-[32px] sm:w-[293.26px] sm:h-[60px] sm:mr-0 mr-32'>
-          <img src="/public/images/Logo.png" alt="Logo" />
+        className='w-[156.4px] h-[32px] sm:w-[293.26px] sm:h-[60px] mr-20 sm:mr-5 box-border'>
+          <img 
+          src="/public/images/Logo.png" alt="Logo" />
         </div>
 
         <div 
         id="search"
-        className='sm:w-[300px] sm:h-[40px] flex justify-between'>
+        className='sm:w-[300px] sm:h-[40px] flex justify-between sm:mr-24'>
 
           <input 
           className='sm:w-[300px] sm:h-[40px] border-1 border-black pl-2 flex-grow sm:rounded-tl-lg sm:rounded-bl-lg bg-[#F8F9FA] text-sm hidden md:block font-poppins'
@@ -45,7 +48,7 @@ const Navigation = () =>
 
             <button>
               <img 
-              className='md:w-[40px] md:h-[40px] block sm:hidden mr-4'
+              className='md:w-[40px] md:h-[40px] block sm:hidden'
               src="/public/images/Search-cell.png" 
               alt="Cell Search" />
             </button>
@@ -54,20 +57,22 @@ const Navigation = () =>
 
         </div>
 
+        {/* </div> */}
+
         <div 
-        className='sm:w-[450px] sm:h-[40px] flex justify-between items-center'
+        className='sm:w-[525px] sm:h-[40px] flex justify-between items-center sm:gap-7'
         id="misc">
 
           <div 
           id="explore"
-          className='sm:w-[107px] sm:h-[24px] justify-between items-center text-sm font-medium hidden md:block'>
+          className='sm:w-[107px] sm:h-[24px] justify-between items-center hidden md:block'>
             <button
-            className='flex items-center font-poppins'>
+            className='flex items-center'>
               <img 
               className='sm:w-[20px] sm:h-[20px]'
               src="/public/images/explore.png" 
               alt="Explore Icon" />
-                Explore
+                <p className='font-medium font-poppins text-sm'>Explore</p>
               <img 
               className='w-[24px] h-[24px]'
               src="/public/images/down.png" alt="" />
@@ -77,15 +82,15 @@ const Navigation = () =>
 
           <div 
           id="hobbies"
-          className='sm:w-[107px] sm:h-[24px] justify-between items-center text-sm font-medium hidden md:block'>
+          className='sm:w-[107px] sm:h-[24px] justify-between items-center hidden md:block'>
             
             <button
-            className='flex items-center font-poppins'>
+            className='flex items-center'>
             <img 
             className='sm:w-[20px] sm:h-[20px]'
             src="/public/images/hobbies.png" 
             alt="Hobbies Icon" />
-              Hobbies
+              <p className='font-medium font-poppins text-sm'>Hobbies</p>
               <img 
               className='w-[24px] h-[24px]'
               src="/public/images/down.png" alt="" />
@@ -102,7 +107,7 @@ const Navigation = () =>
           </button>
 
           <button 
-          className='mr-4 sm:mr-0'
+          className=''
           id="bell">
             <img  
             src="/public/images/bell.png" 
@@ -119,7 +124,7 @@ const Navigation = () =>
 
           <button 
           id='signin'
-          className='sm:w-[112px] sm:h-[40px] border-2 border-[#8064A2] rounded-lg text-sm font-medium text-[#8064A2] font-poppins hidden md:block'>
+          className='sm:w-[112px] sm:h-[40px] border-[1px] border-[#8064A2] rounded-lg text-sm font-semibold text-[#8064A2] font-poppins hidden md:block sm:px-4'>
             Sign In
           </button>
 
