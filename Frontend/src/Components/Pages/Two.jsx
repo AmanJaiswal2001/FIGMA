@@ -4,9 +4,9 @@ const Two = () =>
 {
   return (
     
-    <div id="main" className='w-full h-screen overflow-x-hidden'>
+    <div id="main" className='w-full h-screen overflow-x-hidden flex justify-center items-center mt-32 md:mt-0'>
 
-      <div id="cards" className='grid grid-cols-1 sm:grid-cols-2 gap-4 sm:p-4 px-1 max-w-full mx-auto p-5'>
+      <div id="cards" className='grid grid-cols-1 sm:grid-cols-2 gap-4 sm:p-4 px-1 max-w-full  m-auto p-5'>
 
         <div id="one" className='w-full h-[216px] sm:w-[608px] sm:h-[297px] rounded-lg border-[1px] border-black flex flex-col sm:p-10 font-poppins p-5 text-center items-center sm:items-start sm:text-start'>
 

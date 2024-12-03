@@ -12,7 +12,7 @@ const Navigation = () =>
 
   return (
     <div id="main"
-    className='w-screen h-screen'>
+    className='w-screen h-20 '>
 
       <div 
       id="nav"

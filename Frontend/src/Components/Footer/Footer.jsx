@@ -28,12 +28,13 @@ const Footer = () => {
   
   return (
     <>
-    <div>    <div className=' md:w-full md:h-96 md:flex md:justify-between  md:p-20 p-8 gap-5'>
+    <div className='md:mt-96 mt-40 md:w-full w-screen '>   
+     <div className='  md:w-full w-screen h-[796px] md:h-96 md:flex md:justify-between  md:p-20 p-8 gap-5'>
   <div className='  flex   md:w-1/4   justify-between p-2'>
     <div className='font-poppins '>
      <p className='font-bold text-sm'>Hobbycue</p> {/* hboo */}
    
-   {isOpen.hobbycue && (  <ul className='pt-4 flex flex-col gap-1 md:text-black text-gray-400'>
+   {isOpen.hobbycue && (  <ul className='pt-4 flex flex-col    md:gap-1    gap-4 md:text-black text-gray-400'>
      <li  className='font-normal text-sm'>About Us</li>
 
       <li  className='font-normal text-sm'>Our Service</li>
@@ -57,7 +58,7 @@ const Footer = () => {
     <div className='font-poppins '>
      <p className='font-bold text-sm'>How Do I</p> {/* hboo */}
    {isOpen.howDoI &&(
-     <ul className='pt-4 flex flex-col gap-1 md:text-black text-gray-400'>
+     <ul className='pt-4 flex flex-col  md:gap-1    gap-4 md:text-black text-gray-400'>
      <li  className='font-normal text-sm'>Sign Up</li>
 
       <li  className='font-normal text-sm'>Add a Listing</li>
@@ -80,7 +81,7 @@ const Footer = () => {
     <div className='font-poppins '>
      <p className='font-bold text-sm'>Quick Links</p> {/* hboo */}
    {isOpen.quickLinks&&(
-     <ul className='pt-4 flex flex-col gap-1 md:text-black text-gray-400'>
+     <ul className='pt-4 flex flex-col  md:gap-1    gap-4 md:text-black text-gray-400'>
      <li  className='font-normal text-sm'>Listings</li>
 
       <li  className='font-normal text-sm'>Blog Posts</li>
@@ -100,33 +101,33 @@ const Footer = () => {
     <div className='font-poppins md:w-1/4  p-2'>
      <p className='font-bold text-sm'>Social Media</p> {/* hboo */}
    
-   <div className='flex w-80 md:gap-4 gap-2 pt-4'>    
+   <div className='flex w-[340px] md:gap-2 gap-1  pt-4 -ml-4 md:-ml-0'>    
     <a href='/#'>
-     <img className='w-6 cursor-pointer'
+     <img className='w-8 cursor-pointer'
       src={Face}></img></a>
  <a href='/#'>
-     <img className='w-6 cursor-pointer'
+     <img className='w-8 cursor-pointer'
       src={Face1}></img></a>
       <a href='/#'>
-     <img className='w-6 cursor-pointer'
+     <img className='w-8 cursor-pointer'
       src={Face2}></img></a>
       <a href='/#'>
-     <img className='w-6 cursor-pointer'
+     <img className='w-8 cursor-pointer'
       src={Face3}></img></a>
       <a href='/#'>
-     <img className='w-6 cursor-pointer'
+     <img className='w-8 cursor-pointer'
       src={Face4}></img></a>
       <a href='/#'>
-     <img className='w-6 cursor-pointer'
+     <img className='w-8 cursor-pointer'
       src={Face5}></img></a>
       <a href='/#'>
-     <img className='w-6 cursor-pointer'
+     <img className='w-8 cursor-pointer'
       src={Face6}></img></a>
   <a href='/#'>
-     <img className='w-6 cursor-pointer'
+     <img className='w-8 cursor-pointer'
       src={Face5}></img></a>
   <a href='/#'>
-     <img className='w-6 cursor-pointer'
+     <img className='w-8 cursor-pointer'
       src={Face7}></img></a>
 
        </div>
@@ -147,7 +148,7 @@ className='border border-violet-900 p-2 md:p-4 w-60 rounded-l-lg outline-none'
 
 </div>
 
-     <p className='font-normal text-sm font-poppins -bottom-16 relative bg-violet-100 p-4 text-center'>© Purple Cues Private Limited</p> {/* hboo */}
+     <p className='font-normal  text-sm font-poppins mt-40 md:mt-0  bg-violet-100 p-4 text-center'>© Purple Cues Private Limited</p> {/* hboo */}
 
     </div>
    

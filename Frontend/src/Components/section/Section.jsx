@@ -2,9 +2,22 @@ import React from 'react'
 import arrow from "../../assets/arrow.png"
 import Group from "../../assets/Group 99.png"
 const Section = () => {
+ 
+ 
+ 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", 
+    });
+  };
+ 
   return (
+
+
+    
     <>
-    <div className='md:w-full w-96 h-64 bg-sky-100 md:h-[662px] absolute'>
+    <div className='md:w-full w-screen h-64 bg-sky-100 md:h-[662px] absolute'>
 <div className='flex justify-around mt-10 ml-5 md:mt-32 md:-ml-12'>
 <div className='md:w-[565px] md:h-14 w-72 h-7'>
    <p className='font-poppins md:text-4xl text-[18px] leading-7'>Your <span className='font-poppins md:text-4xl text-[18px] leading-7 text-purple-800'>Hobby</span> , Your  <span className=' text-emerald-600 font-poppins md:text-4xl text-[18px] leading-7'>Community...</span> </p>
@@ -31,12 +44,15 @@ const Section = () => {
 className='relative md:top-80 top-40 md:m-auto   '
 />
 </div>
-    <div className='bg-gray-100 w-10 p-2 h-10 md:flex flex-col fixed hidden  right-32 bottom-[500px] rounded-full mt-16' >
+    <div className='bg-gray-100 w-10 p-3 h-10 md:flex flex-col absolute hidden  right-32 rounded-full -mt-20' >
+ <button onClick={scrollToTop}>
   <img className=' '
   src={arrow}/>
 <div className='bg-gray-100 w-56 h-5 text-center relative right-24 mt-4  p-4 flex items-center justify-center'>
  <p className='text-purple-600 font-medium  font-poppins text-sm'>Go to top (Ctrl+Home)</p>
+
 </div>
+</button>
  </div>
 
 

@@ -14,15 +14,20 @@ function App() {
 
   return (
     <>
+
+    <Navigation/>
+<Signin/>
+<Two/>
     <Router>
       <Routes>
-        <Route path="/signin" element={<Signin />} />
-        <Route path="/navigation" element={<Navigation />} />
-        <Route path="/two" element={<Two />} />
+        {/* <Route path="/signin" element={<Signin />} /> */}
+        {/* <Route path="/navigation" element={<Navigation />} /> */}
+        {/* <Route path="/two" element={<Two />} /> */}
       </Routes>
     </Router>
-     <Footer/> 
+   
     <Section/>
+    <Footer/> 
     </>
   )
 }
