@@ -41,7 +41,7 @@ const Section = () => {
     <div className='md:w-full w-80 m-auto'>
     <img src={Group}
 
-className='relative md:top-80 top-40 md:m-auto   '
+className='relative md:top-80 top-60 md:m-auto   '
 />
 </div>
     <div className='bg-gray-100 w-10 p-3 h-10 md:flex flex-col absolute hidden  right-32 rounded-full -mt-20' >
