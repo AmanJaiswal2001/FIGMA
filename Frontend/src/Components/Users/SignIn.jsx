@@ -168,7 +168,7 @@ export default function SignIn() {
                 {/* SignIn with Facebook Button */}
                 <a href="#" className='flex flex-wrap border rounded gap-[30px] md:gap-[70px] top-3 right-32 py-1 md:py-3 px-5 bg-[#F7F5F9] hover:bg-[#ded9e2] md:h-[40px] md:w-[350px]'>
                   <img src={FBIcon} alt="Google Icon" className='md:w-[16px] md:h-[16px] size-3' />
-                  <p className="font-poppins font-semibold leading-4 text-[12px] md:text-[14px]">Continue with Google</p>
+                  <p className="font-poppins font-semibold leading-4 text-[12px] md:text-[14px]">Continue with Facebook</p>
                 </a>
 
                 <div className='flex items-center justify-center gap-2 w-full'>
@@ -226,7 +226,7 @@ export default function SignIn() {
                 {/* SignIn with Facebook Button */}
                 <a href="#" className='flex flex-wrap border rounded gap-[30px] md:gap-[70px] top-3 right-32 py-1 md:py-3 px-5 bg-[#F7F5F9] hover:bg-[#ded9e2] md:h-[40px] md:w-[350px]'>
                   <img src={FBIcon} alt="Google Icon" className='md:w-[16px] md:h-[16px] size-3' />
-                  <p className="font-poppins font-semibold leading-4 text-[12px] md:text-[14px]">Continue with Google</p>
+                  <p className="font-poppins font-semibold leading-4 text-[12px] md:text-[14px]">Continue with Facebook</p>
                 </a>
               </div>
             </div>
